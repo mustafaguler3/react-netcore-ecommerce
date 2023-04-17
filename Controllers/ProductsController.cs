@@ -1,6 +1,7 @@
 ﻿using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -18,7 +19,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = _context.Products.ToList();
+            var products = await _context.Products.ToListAsync();
 
             return Ok(products);
         }
@@ -26,7 +27,7 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            return _context.Products.Find(id);
+            return await _context.Products.FindAsync(id);
         }
     }
 }
