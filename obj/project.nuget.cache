@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "u+ENCAYybyAzP2xwbygd4E5/l3O0XIYokC1XKyxX3bOj67Y1Oultf89/9VltNi6ORUP+IUMj9TEdAQok729M8g==",
-  "success": false,
-  "projectFilePath": "c:\\Users\\Mustafa GULER\\Desktop\\Store\\API\\API.csproj",
+  "dgSpecHash": "VobDAWazCvMGuZVfAxlhQNnAULVQuc+aDNH6ZbHEWRgMhgIr00UxEr9jGxzh5lHEgpQPB1aGuDvvOQElpNcLlg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mustafa GULER\\Desktop\\Store\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
-    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
-    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.5\\microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.5\\microsoft.entityframeworkcore.sqlite.7.0.5.nupkg.sha512",
@@ -41,24 +41,5 @@
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Mustafa GULER\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.5 to 7.0.0. Reference the package directly from the project to select a different version. \r\n API -> Microsoft.EntityFrameworkCore.Design 7.0.5 -> Microsoft.EntityFrameworkCore.Relational 7.0.5 -> Microsoft.EntityFrameworkCore (>= 7.0.5) \r\n API -> Microsoft.EntityFrameworkCore (>= 7.0.0)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.5 to 7.0.0. Reference the package directly from the project to select a different version. \r\n API -> Microsoft.EntityFrameworkCore.Sqlite 7.0.5 -> Microsoft.EntityFrameworkCore.Sqlite.Core 7.0.5 -> Microsoft.EntityFrameworkCore.Relational 7.0.5 -> Microsoft.EntityFrameworkCore (>= 7.0.5) \r\n API -> Microsoft.EntityFrameworkCore (>= 7.0.0)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
