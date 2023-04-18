@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 import {useEffect, useState} from "react"
 import { Product } from '../models/product';
+import Catalog from '../../features/catalog/Catalog';
+import { Typography } from '@mui/material';
 
 function App() {
   const [products,setProducts] = useState<Product[]>([]);
@@ -25,14 +27,10 @@ function App() {
   },[])
 
   return (
-    <div className="App">
-      <h1 style={{color:"green"}}>mustafa</h1>
-      <ul>
-        {products.map(product => {
-          return <li>{product.name} - {product.price}</li>
-        })}
-      </ul>
-      <button onClick={()=>addProduct()}>Add Product</button>
+    <div>
+      <Typography variant='h1'>React Store</Typography>
+      <Catalog products={products} addProduct={addProduct}/>    
+      
     </div>
   );
 }
