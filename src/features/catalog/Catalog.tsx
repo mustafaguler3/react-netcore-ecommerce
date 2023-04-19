@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
-import { Product } from "../../app/models/product";
 import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
+import { Product } from "../../app/models/product";
 
 
 export default function Catalog() {
@@ -17,13 +17,13 @@ export default function Catalog() {
     }])*/
   }
   useEffect(() => {
-    fetch("https://localhost:44394/api/Products")
+    fetch("https://localhost:5001/api/Products")
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
   return (
     <>
-      <ProductList products={products}/>
+      <ProductList products={products} />
       <Button variant="contained" onClick={addProduct}>Add Product</Button>
     </>
   );

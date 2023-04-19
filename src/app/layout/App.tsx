@@ -1,9 +1,7 @@
-import React from "react";
 import "./style.css";
-import { useEffect, useState } from "react";
-import { Product } from "../models/product";
+import { useState } from "react";
 import Catalog from "../../features/catalog/Catalog";
-import { Container, CssBaseline, ThemeProvider, Typography, createTheme } from "@mui/material";
+import { Container, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import Header from "../../features/catalog/Header";
 
 function App() {
