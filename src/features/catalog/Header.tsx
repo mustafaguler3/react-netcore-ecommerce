@@ -42,7 +42,7 @@ interface Props {
 export default function Header({ darkMode, handleThemeChange }: Props) {
   return (
     <>
-      <AppBar position="static" sx={{ mb: 5 }}>
+      <AppBar color="primary" position="static" sx={{ mb: 5 }}>
         <Toolbar
           sx={{
             display: "flex",

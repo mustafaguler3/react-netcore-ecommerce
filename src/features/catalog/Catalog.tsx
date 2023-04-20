@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
 import { Product } from "../../app/models/product";
+import agent from "../../app/api/agent";
 
 
 export default function Catalog() {
@@ -17,14 +18,11 @@ export default function Catalog() {
     }])*/
   }
   useEffect(() => {
-    fetch("https://localhost:5001/api/Products")
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
+    agent.Catalog.list().then(products => setProducts(products))
   }, []);
   return (
     <>
       <ProductList products={products} />
-      <Button variant="contained" onClick={addProduct}>Add Product</Button>
     </>
   );
 }
