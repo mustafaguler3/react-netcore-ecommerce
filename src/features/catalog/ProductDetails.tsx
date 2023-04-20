@@ -12,7 +12,7 @@ export default function ProductDetails(){
 
     useEffect(()=>{
         id && agent.Catalog.details(parseInt(id))
-        .then(response => setProduct(response.data))
+        .then(response => setProduct(response))
         .catch(error => console.log(error))
         .finally(() => setLoading(false))
     },[id])
