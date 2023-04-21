@@ -13,6 +13,7 @@ namespace API.Data
         {
 
         }
+        public DbSet<Basket> Baskets { get; set; }
         public DbSet<Product> Products { get; set; }
     }
 }
