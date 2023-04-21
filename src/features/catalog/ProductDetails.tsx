@@ -7,7 +7,8 @@ import agent from "../../app/api/agent";
 import NotFound from "../../app/errors/NotFound";
 import LoadingComponent from "../../app/layout/LoadingComponent";
 
-export default function ProductDetails(){    
+export default function ProductDetails(){  
+
     const {id} = useParams<{id:string}>();
     const [product,setProduct] = useState<Product | null>(null);
     const [loading,setLoading] = useState(true);
