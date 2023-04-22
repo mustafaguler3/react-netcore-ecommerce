@@ -62,9 +62,11 @@ const Basket = {
     addItem: (productId:number,quantity=1) => request.post(`basket?productId=${productId}&quantity=${quantity}`,{}),
     removeItem: (productId:number,quantity=1) => request.delete(`basket?productId=${productId}&quantity=${quantity}`)
 }
+
 const agent = {
     Catalog,
     TestErrors,
     Basket
 }
+
 export default agent;
