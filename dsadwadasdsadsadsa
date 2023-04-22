@@ -1,0 +1,107 @@
+[33mcommit 030453f530afcedade5bcc9958fbbda7f6ea0d78[m[33m ([m[1;36mHEAD -> [m[1;32mfront[m[33m, [m[1;31mreact-section/front[m[33m)[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Sat Apr 22 14:07:08 2023 +0300
+
+    stylied basket page with table
+
+[33mcommit c979cdb249cd8a0cdd3265186a480563aeb61268[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Sat Apr 22 13:55:56 2023 +0300
+
+    created basket component and models
+
+[33mcommit 348bede36ac5384098d64501cd5dcb3b0351ed87[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Fri Apr 21 21:59:45 2023 +0300
+
+    added axios methods for basket
+
+[33mcommit 5655b58f5f70a8e9db638adfa6990e982dcdfc26[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Fri Apr 21 20:04:50 2023 +0300
+
+    added delay and loading indicators
+
+[33mcommit 1c62d43b18f611788cd398e4f363235a31bcee33[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Fri Apr 21 19:51:57 2023 +0300
+
+    added not-found component
+
+[33mcommit 950d672ea949a20dafd882c79fb2cb28496bb6bc[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Fri Apr 21 19:29:09 2023 +0300
+
+    added server error component
+
+[33mcommit 3d46618946aa7b08a9408745d46417e11167422d[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Thu Apr 20 21:34:17 2023 +0300
+
+    added toastify package
+
+[33mcommit 82500be8244c1517dce4fc63988f7fb87580abc6[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Thu Apr 20 20:43:24 2023 +0300
+
+    used axios interceptor
+
+[33mcommit 47df08e150c123d6e9dec006f473491b21b3e40d[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Thu Apr 20 20:27:37 2023 +0300
+
+    added error responses
+
+[33mcommit d73173d76b765246b5622851380427bd97eb0675[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Wed Apr 19 12:16:21 2023 +0300
+
+    added product detail component
+
+[33mcommit 5ec6cb92b93f367fec846f0a6d3cabd77621d181[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Wed Apr 19 11:51:55 2023 +0300
+
+    added navbar styling
+
+[33mcommit 203016e3e8a5daa1c3e2750f060f5b27ae9c79f3[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Wed Apr 19 11:28:52 2023 +0300
+
+    added react router
+
+[33mcommit 7c5d4e5db2b6fb44d1b9ddecda9f13c12186b54d[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Wed Apr 19 10:31:48 2023 +0300
+
+    changed folder structures
+
+[33mcommit 98b5d17ea5c0b82a9d1e9ffcab68bca483a80c59[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Tue Apr 18 13:58:52 2023 +0300
+
+    added appbar and material them
+
+[33mcommit b0c041294456165de4d9ff813cac3181cefed3ac[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Tue Apr 18 11:39:07 2023 +0300
+
+    added mui-material package
+
+[33mcommit 02e2547735dc1d30da8988f1dd2da94a522d5de0[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Mon Apr 17 13:41:40 2023 +0300
+
+    added product interface
+
+[33mcommit cfdc797e7ad1f9f163d039dbc1c34ba2ab7bc85d[m[33m ([m[1;32mmaster[m[33m)[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Mon Apr 17 12:42:32 2023 +0300
+
+    added front-end section
+
+[33mcommit 192aca91ee899d9cced5d845cab7acba0917112f[m
+Author: mustafaguler3 <mustafa.glr@hotmail.com>
+Date:   Mon Apr 17 12:31:24 2023 +0300
+
+    Initialize project using Create React App

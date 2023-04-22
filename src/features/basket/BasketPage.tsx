@@ -21,8 +21,8 @@ export default function BasketPage() {
 
   useEffect(() => {
     agent.Basket.get()
-      .then((basket) => setBasket(basket))
-      .catch((error) => console.error(error))
+      .then(basket => setBasket(basket))
+      .catch(error => console.error(error))
       .finally(() => setLoading(false));
   }, []);
 

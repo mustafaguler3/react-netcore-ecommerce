@@ -67,7 +67,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
 
           <Box display="flex" alignItems="center">
             <IconButton
-            component={Link} to="/basket"
+            component={Link} to="basket"
               size="large"
               edge="start"
               color="inherit"
