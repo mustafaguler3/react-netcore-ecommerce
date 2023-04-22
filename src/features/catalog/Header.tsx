@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import { Link, NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { useStoreContext } from "../../app/context/StoreContext";
 
 const midLinks = [
   { title: "catalog", path: "/catalog" },
@@ -40,6 +41,9 @@ interface Props {
 }
 
 export default function Header({ darkMode, handleThemeChange }: Props) {
+  const {basket} = useStoreContext();
+  const itemCount = basket?.items.reduce((sum,item) => sum + item.quantity,0)
+
   return (
     <>
       <AppBar color="primary" position="static" sx={{ mb: 5 }}>
@@ -73,7 +77,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
               color="inherit"
               sx={{ mr: 2 }}
             >
-              <Badge badgeContent="4" color="secondary">
+              <Badge badgeContent={itemCount == null ? "0" : itemCount} color="secondary">
                 <ShoppingCartIcon />
               </Badge>
             </IconButton>
