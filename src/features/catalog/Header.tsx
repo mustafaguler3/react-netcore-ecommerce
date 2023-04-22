@@ -9,7 +9,7 @@ import {
   Badge,
   Box,
 } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const midLinks = [
@@ -67,6 +67,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
 
           <Box display="flex" alignItems="center">
             <IconButton
+            component={Link} to="/basket"
               size="large"
               edge="start"
               color="inherit"
