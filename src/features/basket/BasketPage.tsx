@@ -1,5 +1,7 @@
 import {
   Box,
+    Button,
+    Grid,
     IconButton,
   Paper,
   Table,
@@ -15,6 +17,8 @@ import { useStoreContext } from "../../app/context/StoreContext";
 import { useState } from "react";
 import agent from "../../app/api/agent";
 import { LoadingButton } from "@mui/lab";
+import BasketSummary from "./BasketSummary";
+import { Link } from "react-router-dom";
 
 export default function BasketPage() {
   const {basket,setBasket,removeItem} = useStoreContext();
@@ -46,7 +50,8 @@ export default function BasketPage() {
     return <Typography variant="h3">Your basket is empty</Typography>;
 
   return (
-    <TableContainer component={Paper}>
+    <>
+      <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }}>
         <TableHead>
           <TableRow>
@@ -102,5 +107,21 @@ export default function BasketPage() {
         </TableBody>
       </Table>
     </TableContainer>
+
+    <Grid container>
+      <Grid item xs={6}></Grid>
+      <Grid item xs={6}>
+        <BasketSummary/>
+        <Button 
+        component={Link}
+        to="/checkout"
+        variant="contained"
+        size="large"
+        fullWidth>
+          Checkout
+        </Button>
+      </Grid>
+    </Grid>
+    </>
   );
 }
