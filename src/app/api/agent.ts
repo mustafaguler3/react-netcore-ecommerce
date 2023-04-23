@@ -58,9 +58,9 @@ const TestErrors = {
     getValidationError:() => request.get("buggy/validation-error"),
 }
 const Basket = {
-    get: () => request.get("basket"),
-    addItem: (productId:number,quantity=1) => request.post(`basket?productId=${productId}&quantity=${quantity}`,{}),
-    removeItem: (productId:number,quantity=1) => request.delete(`basket?productId=${productId}&quantity=${quantity}`)
+    get: () => request.get("Basket"),
+    addItem: (productId:number,quantity=1) => request.post(`Basket?productId=${productId}&quantity=${quantity}`,{}),
+    removeItem: (productId:number,quantity=1) => request.delete(`Basket?productId=${productId}&quantity=${quantity}`)
 }
 
 const agent = {

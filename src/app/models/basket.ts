@@ -1,7 +1,7 @@
 export interface Basket {
     id: number;
     buyerId: string;
-    items: BasketItem[]
+    items: BasketItem[];
 }
 
 export interface BasketItem {

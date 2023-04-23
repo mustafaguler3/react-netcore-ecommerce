@@ -2,8 +2,8 @@ import { PropsWithChildren, createContext, useContext, useState } from "react";
 import { Basket } from "../models/basket";
 
 interface StoreContextValue {
-    basket:Basket | null;
-    setBasket : (baslet:Basket) => void;
+    basket: Basket | null;
+    setBasket : (basket:Basket) => void;
     removeItem: (productId:number,quantity:number) => void;
 }
 
@@ -39,6 +39,6 @@ export function StoreProvider({children}: PropsWithChildren<any>){
         <StoreContext.Provider value={{basket,setBasket,removeItem}}>
             {children}
         </StoreContext.Provider>
-        )
+    )
 
 }

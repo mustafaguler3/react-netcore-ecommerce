@@ -35,14 +35,16 @@ const navStyles = {
     color: "text.secondary",
   },
 };
+
 interface Props {
   darkMode: boolean;
   handleThemeChange: () => void;
 }
 
 export default function Header({ darkMode, handleThemeChange }: Props) {
-  const {basket} = useStoreContext();
-  const itemCount = basket?.items.reduce((sum,item) => sum + item.quantity,0)
+  
+  const { basket } = useStoreContext();
+  const itemCount = basket?.items.reduce((sum,item) => sum + item.quantity,0);
 
   return (
     <>
