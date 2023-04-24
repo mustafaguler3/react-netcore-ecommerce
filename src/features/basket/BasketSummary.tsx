@@ -1,12 +1,12 @@
 import { Paper, Table, TableBody, TableCell, TableContainer, TableRow } from "@mui/material";
 import { useStoreContext } from "../../app/context/StoreContext";
+import { useAppSelector } from "../../app/store/configureStore";
 
 export default function BasketSummary(){
-    const { basket } = useStoreContext();    
+    //const { basket } = useStoreContext();    
+    const { basket } = useAppSelector(state => state.basket)
     const subtotal = basket?.items.reduce((sum,item) => sum + (item.quantity*item.price),0) ?? 0;
     const deliveryFee = subtotal > 10000 ? 0 : 5000;
-
-   
 
     function currencyFormat(subtotal: number): import("react").ReactNode {
         throw new Error("Function not implemented.");

@@ -9,22 +9,25 @@ import { useStoreContext } from "../context/StoreContext";
 import { getCookie } from "../Util/util";
 import agent from "../api/agent";
 import LoadingComponent from "./LoadingComponent";
+import { useAppDispatch } from "../store/configureStore";
+import { setBasket } from "../../features/basket/basketSlice";
 
 function App() {
-  const {setBasket} = useStoreContext();
+  //const {setBasket} = useStoreContext();
+  const dispatch = useAppDispatch();
   const [loading,setLoading] = useState(true);
 
   useEffect(()=>{
     const buyerId = getCookie("buyerId");
     if(buyerId){
       agent.Basket.get()
-      .then(basket => setBasket(basket))
+      .then(basket => dispatch(setBasket(basket)))
       .catch(error => console.log(error))
       .finally(() => setLoading(false))
     }else {
       setLoading(false)
     }
-  },[setBasket])
+  },[dispatch])
 
 
   const [darkMode,setDarkMode] = useState(false);
