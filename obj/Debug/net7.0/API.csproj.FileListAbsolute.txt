@@ -175,3 +175,10 @@ C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.AspN
 C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mustafa GULER\Desktop\Store\backend\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
